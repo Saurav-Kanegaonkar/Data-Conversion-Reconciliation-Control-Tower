@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+CON009,Conversion mapping 9,Watch,93.53,51.3,79.6,773308
+CON001,Conversion mapping 1,Growth,90.55,49.3,79.5,747389
+CON013,Conversion mapping 13,Strategic,88.20,49.3,78.7,711057
+CON020,Conversion mapping 20,Strategic,87.94,51.8,79.4,688875
+CON028,Conversion mapping 28,Growth,85.44,50.7,80.3,668005
+CON005,Conversion mapping 5,Watch,85.31,55.7,80.0,621317
+CON031,Conversion mapping 31,Core,84.92,54.5,82.2,636020
+CON033,Conversion mapping 33,Growth,84.16,53.9,80.3,622325
+CON011,Conversion mapping 11,Core,83.25,50.9,81.5,640603
+CON025,Conversion mapping 25,Watch,82.88,51.9,81.7,627450
+CON010,Conversion mapping 10,Growth,81.90,53.7,77.0,577471
+CON036,Conversion mapping 36,Strategic,81.64,50.6,80.8,618104
+CON030,Conversion mapping 30,Core,81.63,54.8,79.0,572999
+CON016,Conversion mapping 16,Watch,81.33,52.5,81.0,597139
+CON018,Conversion mapping 18,Strategic,80.87,53.5,82.1,587533
+CON019,Conversion mapping 19,Core,80.26,52.8,81.6,583288
+CON017,Conversion mapping 17,Core,79.99,52.0,80.3,580320
+CON032,Conversion mapping 32,Watch,78.62,50.4,80.6,576408
+CON022,Conversion mapping 22,Watch,78.61,50.7,81.7,578319
+CON002,Conversion mapping 2,Strategic,78.43,51.0,82.2,575695
+CON023,Conversion mapping 23,Growth,77.15,52.1,80.1,539032
+CON026,Conversion mapping 26,Growth,77.06,48.6,79.9,566950
+CON007,Conversion mapping 7,Growth,76.83,49.9,80.4,554491
+CON004,Conversion mapping 4,Strategic,76.16,48.6,80.5,556708
+CON012,Conversion mapping 12,Core,75.89,48.5,80.9,555729
