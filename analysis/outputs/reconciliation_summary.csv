@@ -1,0 +1,7 @@
+business_domain,mappings,avg_readiness,ready,blocked,open_findings
+Asset Register,8,74.7,2,4,12
+Contracts,8,80.4,3,2,9
+Customer Master,8,77.7,3,4,10
+Payments,8,81.6,5,1,6
+Vendor Master,8,74.4,4,4,10
+Work Orders,8,80.9,3,2,8

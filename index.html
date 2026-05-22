@@ -6,49 +6,85 @@
   <title>Data Conversion Reconciliation Control Tower</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body style="--accent:#0f766e;--bg:#eefdf8">
+<body>
   <main class="shell">
     <header class="hero">
       <div>
-        <p class="eyebrow">Scorecard / data conversion reconciliation and lineage analytics</p>
+        <p class="eyebrow">Conversion verification workbench</p>
         <h1>Data Conversion Reconciliation Control Tower</h1>
+        <p class="lede">Source-to-target mapping, Snowflake audit evidence, reconciliation health, and verification triage in one stakeholder-ready package.</p>
       </div>
-      <aside>
-        <b>Purpose</b>
-        <span>Turn messy conversion mapping-level signals into a ranked operating artifact with recommendations a stakeholder can act on.</span>
+      <aside class="hero-score">
+        <span>Readiness</span>
+        <strong id="heroScore">--</strong>
+        <small id="heroSub">Loading generated analysis</small>
       </aside>
     </header>
-    <section class="metrics">
-      <article><span>Modeled rows</span><strong>6.0K+</strong><em>source-style</em></article>
-      <article><span>Ranked queue</span><strong>25</strong><em>conversion mappings</em></article>
-      <article><span>Action pool</span><strong>220</strong><em>candidates</em></article>
-      <article><span>Review time</span><strong>-6 hrs</strong><em>weekly</em></article>
+
+    <p id="appStatus" class="status-line"></p>
+
+    <section id="metrics" class="metrics" aria-label="Conversion health metrics"></section>
+
+    <section class="toolbar" aria-label="Filters">
+      <div>
+        <span>Domain</span>
+        <nav id="domainFilters"></nav>
+      </div>
+      <div>
+        <span>Gate</span>
+        <nav id="gateFilters"></nav>
+      </div>
     </section>
-    <section class="main-grid">
-      <article class="panel lead">
-        <p class="eyebrow">Metric ownership</p>
-        <h2>Priority queue</h2>
-        <table>
-          <thead><tr><th>conversion mapping</th><th>Signal</th><th>Risk</th><th>Next move</th></tr></thead>
-          <tbody>
-            <tr><td>Segment A</td><td>KPI drift</td><td>High</td><td>Escalate with source check</td></tr>
-            <tr><td>Segment B</td><td>Roadmap opportunity</td><td>Medium</td><td>Test with clear owner</td></tr>
-            <tr><td>Segment C</td><td>Quality gap</td><td>Watch</td><td>Document metric definition</td></tr>
-          </tbody>
-        </table>
+
+    <section class="grid two">
+      <article class="panel">
+        <div class="section-head">
+          <p class="eyebrow">Sign-off cockpit</p>
+          <h2>Conversion Health By Domain</h2>
+        </div>
+        <div id="domainPulse" class="domain-pulse"></div>
       </article>
-      <article class="panel narrative">
-        <p class="eyebrow">What the analysis says</p>
-        <h2>Recommendations over screenshots</h2>
-        <p>The artifact is built around decisions, not dashboard decoration: each source table feeds a ranked queue, and each queue item resolves into a recommendation.</p>
-        <p>The strongest opportunities appear where performance upside, measurement quality, and operating readiness overlap.</p>
+      <article class="panel">
+        <div class="section-head">
+          <p class="eyebrow">SQL evidence</p>
+          <h2>Audit Controls</h2>
+        </div>
+        <div id="sqlEvidence" class="sql-grid"></div>
       </article>
     </section>
-    <section class="recommendations">
-      <article><b>01</b><h3>Validate</h3><p>Confirm source definitions before scaling the insight into recurring reporting.</p></article>
-      <article><b>02</b><h3>Prioritize</h3><p>Move the highest-value conversion mapping segment into the next operating review.</p></article>
-      <article><b>03</b><h3>Automate</h3><p>Convert the queue into a stakeholder-ready digest for repeated decisions.</p></article>
+
+    <section class="panel">
+      <div class="section-head">
+        <p class="eyebrow">Priority queue</p>
+        <h2>Mappings Needing Action</h2>
+      </div>
+      <div id="priorityQueue" class="table-wrap"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <p class="eyebrow">Source-to-target workbook</p>
+        <h2>STTM Review Surface</h2>
+      </div>
+      <div id="sttmCards" class="sttm-grid"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <p class="eyebrow">Load-ready to destination</p>
+        <h2>Reconciliation Lab</h2>
+      </div>
+      <div id="reconGrid" class="recon-grid"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-head">
+        <p class="eyebrow">Verification triage</p>
+        <h2>Stakeholder Status Digest</h2>
+      </div>
+      <div id="incidentList" class="incident-list"></div>
     </section>
   </main>
+  <script src="src/app.js"></script>
 </body>
 </html>

@@ -27,23 +27,3 @@ MAP-04-05,Payments,payment_dt,payment_date,Critical,Currency conversion,Approved
 MAP-03-07,Contracts,contract_type_cd,contract_type,High,Direct,Pending business sign-off,98.3,1,82.9,Watch,Keep in watch list and retest in the next load cycle.
 MAP-05-02,Work Orders,customer_id,customer_key,Critical,Derived,Approved,97.6,0,83.5,Watch,Keep in watch list and retest in the next load cycle.
 MAP-03-05,Contracts,contract_value,contract_value_usd,Critical,Reference decode,Approved,96.4,2,83.8,Watch,Keep in watch list and retest in the next load cycle.
-MAP-04-02,Payments,invoice_id,invoice_key,Critical,Lookup,Approved,98.5,0,86.1,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-04-03,Payments,customer_id,customer_key,High,Derived,Approved,96.9,0,86.1,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-06-05,Asset Register,book_value,book_value_usd,Critical,Lookup,Approved,98.5,0,86.1,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-04-08,Payments,batch_id,source_batch_id,High,Derived,Approved,97.8,1,86.6,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-01-05,Customer Master,primary_email,email_address,Critical,Lookup,Approved,99.3,0,86.6,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-02-06,Vendor Master,bank_country,bank_country_code,High,Reference decode,Approved,97.4,1,87.4,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-04-04,Payments,payment_amt,payment_amount_usd,High,Reference decode,Approved,97.8,1,87.6,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-05-04,Work Orders,opened_ts,opened_at,Medium,Currency conversion,Approved,96.7,1,88.0,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-02-04,Vendor Master,active_flag,is_active,High,Lookup,Approved,97.2,1,88.3,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-03-06,Contracts,renewal_notice_days,renewal_notice_days,Medium,Currency conversion,Approved,97.5,0,88.5,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-03-03,Contracts,effective_dt,effective_date,High,Lookup,Approved,98.3,0,88.9,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-04-01,Payments,payment_id,payment_key,Critical,Direct,Approved,97.6,0,89.5,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-01-06,Customer Master,billing_state,billing_state_code,Medium,Derived,Approved,97.9,1,89.7,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-05-07,Work Orders,labor_hours,labor_hours,Medium,Derived,Approved,98.4,0,90.0,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-05-03,Work Orders,asset_id,asset_key,Medium,Reference decode,Approved,98.1,0,90.8,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-03-08,Contracts,signed_flag,is_signed,Medium,Lookup,Approved,99.1,0,92.4,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-02-03,Vendor Master,payment_terms,payment_terms_code,High,Direct,Approved,98.1,0,92.8,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-02-08,Vendor Master,tax_form_type,tax_form_type,High,Direct,Approved,98.4,0,93.0,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-01-04,Customer Master,customer_status_cd,customer_status,High,Direct,Approved,98.6,0,93.1,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."
-MAP-06-04,Asset Register,retire_dt,retirement_date,Medium,Direct,Approved,97.7,1,95.6,Sign-off ready,"Package STTM row, reconciliation evidence, and owner approval for formal sign-off."

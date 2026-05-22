@@ -1,7 +1,7 @@
 # Status
 
-- Project: Data Conversion Reconciliation Control Tower
-- GitHub: https://github.com/Saurav-Kanegaonkar/Data-Conversion-Reconciliation-Control-Tower
-- Status: complete
-- Resume Link Ready: Yes
-- Last update: Created to locked pipeline standards with multiple data sources, analysis artifacts, scripts, screenshot, and distinct artifact framing.
+- Status: upgraded through the Portfolio Artifact Upgrade Workflow.
+- Artifact type: data conversion control package with STTM, reconciliation, Snowflake SQL evidence, and incident triage.
+- Data: reproducible synthetic conversion verification data.
+- README: written with company-domain language and no target company name.
+- Local run: `npm start`, then open `http://localhost:5174`.
